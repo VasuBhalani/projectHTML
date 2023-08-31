@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+    input[type=button]
+    {
+            background-color: #e4791a;
+            border: none;
+            color: rgb(9, 9, 9);
+            padding: 2px 1.5px;
+            text-decoration: none;
+            margin: 2px 1.5px;
+            /* cursor: pointer; */
+            border-radius: 5px;
+            width:250px;
+            height:35px;
+            font-size: large;
+            border: 1px solid black;
+      }
+      input[type=text],input[type=password]
+    {
+            border: none;
+            color: rgb(9, 9, 9);
+            padding: 2px 1.5px;
+            text-decoration: none;
+            margin: 2px 1.5px;
+            /* cursor: pointer; */
+            border-radius: 5px;
+            width:250px;
+            height:35px;
+            border: 1px solid black;
+            /* font-size: large; */
+      }
+      .login{
+        border: 3.5px solid black;
+        border-color: rgb(5, 0, 15);
+        border-radius: 18px;
+        width:350px;
+        height: 260px;
+        padding-top: 50px;
+        padding-bottom:50px;
+        margin-top:200px;
+      }
+      #Username,#password{
+        margin: 2px 1.5px;
+        padding:2px 1.5px;
+      }
+      .submit
+      {
+        margin:25px;
+      }
+    </style>
+</head>
+    
+<body>
+    <center>
+    <div class="login">
+        <img src="logo3.jpeg" height="80" width="250" >
+        <p id="Username">
+        <label for="Username"></label>
+        <div>
+          <input type="text" name="Username" id="Username" placeholder="Enter Username" size="30" maxlength="30">
+        </div></p>
+  
+         <p id="password">
+        <label for="password"></label>
+        <div>
+          <input type="password" name="Password" id="Password" placeholder="Password" size="30"maxlength="8">
+        </div></p>
+        <div class="submit">
+            <input type="button" value="Submit" id="Submit">
+        </div>
+    </div>
+</center>
+</body>
+</html>
